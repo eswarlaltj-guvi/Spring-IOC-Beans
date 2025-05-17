@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body
+{
+  text-align: center;
+  margin-top: 100px;
+
+}
+.buttons
+{
+  line-height: 3em;
+}
+
+.buttons a
+{
+  margin-top:50px;
+  text-decoration: none ;
+  border: 4PX solid black;
+  background-color: skyblue;
+  padding:10px;
+  border-radius: 10px;
+  color: black;
+
+}
+

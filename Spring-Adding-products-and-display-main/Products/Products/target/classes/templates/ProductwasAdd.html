@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center;">
+
+
+
+    <div th:object="${productDetial}">
+        <p>id:              <strong th:text="*{id}"></strong></p>
+        <p>ProductName:     <strong th:text="*{ProductName}"></strong></p>
+        <p>ProductPrice:    <strong th:text="*{ProductPrice}"></strong></p>
+        <p>ProductCategory: <strong th:text="*{ProductCategory}"></strong></p>
+    </div>
+
+</body>
+</html>
